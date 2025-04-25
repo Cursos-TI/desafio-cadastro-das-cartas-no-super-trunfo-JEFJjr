@@ -7,6 +7,63 @@
 //Teste larissa
 
 int main() {
+
+        int populacao, populacao2, pontosturisticos, pontosturisticos2;
+        float area, area2; 
+        float PIB, PIB2;
+        char nome [50], nome2[50];
+    
+        printf("Digite os dados da primeira carta\n");
+        
+        printf("Nome:\n");
+        scanf("%s", &nome);
+
+        printf("População: \n");
+        scanf("%d", &populacao);
+    
+        printf("Área: \n");
+        scanf("%f", &area);
+    
+        printf("PIB:  \n");
+        scanf("%f", &PIB);
+    
+        printf("Número de Pontos Turísticos: \n");
+        scanf("%d", &pontosturisticos);
+    
+        //SEGUNDA CARTA COMEÇA A PARTIR DAQUI
+
+        printf("Digite os dados da Segunda carta\n");
+        
+        printf("Nome:\n");
+        scanf("%s", &nome2);
+
+        printf("População: \n");
+        scanf("%d", &populacao2);
+    
+        printf("Área: \n");
+        scanf("%f", &area2);
+    
+        printf("PIB:  \n");
+        scanf("%f", &PIB2);
+    
+        printf("Número de Pontos Turísticos: \n");
+        scanf("%d", &pontosturisticos2);
+    
+        //ESTATISTICAS APRESENTADAS
+        printf("Estatísticas da primeira carta:\n");
+        printf("Nome: %s \n", nome);
+        printf("População: %d \n", populacao);
+        printf("Pontos Turísticos: %d\n",pontosturisticos);
+        printf("Área: %.3f\n", area);
+        printf("Pib: %.3f \n", PIB);
+
+        printf("Estatísticas da Segunda Carta: \n");
+        printf("Nome: %s\n", &nome2);
+        printf("População: %d \n", populacao2);
+        printf("Pontos Turísticos: %d\n", pontosturisticos2);
+        printf("Área: %.3f \n", area2);
+        printf("Pib: %.3f\n", PIB2);
+
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
